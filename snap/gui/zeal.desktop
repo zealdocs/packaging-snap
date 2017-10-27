@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Name=Zeal
+GenericName=Documentation Browser
+Comment=Simple API documentation browser
+Exec=/snap/bin/zeal %u
+Icon=${SNAP}/meta/gui/zeal.png
+Terminal=false
+Type=Application
+Categories=Development;
+MimeType=x-scheme-handler/dash;x-scheme-handler/dash-plugin;
