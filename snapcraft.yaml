@@ -28,10 +28,10 @@ parts:
       - libsqlite3-dev
       - extra-cmake-modules
     stage-packages:
+      - libsqlite3-0
       - xcb
       - libarchive13
       - libxcb-cursor0
-      - libqt5sql5-sqlite
     after: [desktop-qt5]
     # TODO: Exclude more unneeded files
     prime:
